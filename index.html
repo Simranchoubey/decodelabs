@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DecodeLabs — Build the Future</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVIGATION ─────────────────────────────────────── -->
+  <header>
+    <nav class="container">
+      <a href="#" class="nav-logo" aria-label="DecodeLabs home">
+        <span aria-hidden="true"></span>
+        DecodeLabs
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="#project">Project</a></li>
+        <li><a href="#pillars">Pillars</a></li>
+        <li><a href="#toolkit">Toolkit</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+      </ul>
+
+      <a href="#start" class="nav-cta">Get Started</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Mobile Menu -->
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+    <a href="#project" class="mobile-link">Project</a>
+    <a href="#pillars" class="mobile-link">Pillars</a>
+    <a href="#toolkit" class="mobile-link">Toolkit</a>
+    <a href="#roadmap" class="mobile-link">Roadmap</a>
+    <a href="#start" class="btn-primary" style="text-align:center">Get Started</a>
+  </nav>
+
+  <main>
+
+    <!-- ── HERO ───────────────────────────────────────────── -->
+    <section class="hero" id="project" aria-label="Project introduction">
+      <div class="hero-inner container">
+        <div class="hero-eyebrow" aria-hidden="true">
+          <span class="hero-eyebrow-line"></span>
+          <span>Batch 2026 · DecodeLabs Internship</span>
+          <span class="hero-eyebrow-line"></span>
+        </div>
+
+        <h1>Build the<br><em>Future</em> of the Web.</h1>
+
+        <p class="hero-sub">
+          Project 1 · The Responsive Architecture. Master HTML5, CSS3, and JavaScript to craft interfaces that work flawlessly on every device — no frameworks, just fundamentals.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#pillars" class="btn-primary">Explore the Pillars</a>
+          <a href="#roadmap" class="btn-ghost">View Roadmap</a>
+        </div>
+      </div>
+
+      <a href="#stats" class="hero-scroll" aria-label="Scroll to content">
+        <span>Scroll</span>
+        <div class="scroll-line" aria-hidden="true"></div>
+      </a>
+    </section>
+
+    <!-- ── STATS ───────────────────────────────────────────── -->
+    <section class="stats" id="stats" aria-label="Program statistics">
+      <div class="container">
+        <dl class="stats-grid">
+          <div>
+            <dt class="stat-label">Tech Stack</dt>
+            <dd class="stat-num">3</dd>
+          </div>
+          <div>
+            <dt class="stat-label">Breakpoints</dt>
+            <dd class="stat-num">2</dd>
+          </div>
+          <div>
+            <dt class="stat-label">Pillars</dt>
+            <dd class="stat-num">3</dd>
+          </div>
+          <div>
+            <dt class="stat-label">Steps to Ship</dt>
+            <dd class="stat-num">6</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ── PILLARS ─────────────────────────────────────────── -->
+    <section class="section" id="pillars" aria-labelledby="pillars-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="tag">Three Pillars</span>
+          <h2 id="pillars-heading">The Framework for Excellence</h2>
+          <p>Every great interface is built on strategy, visual craft, and precise implementation. Master all three.</p>
+        </header>
+
+        <div class="pillars-grid" role="list">
+
+          <article class="pillar-card" role="listitem">
+            <p class="pillar-number">Pillar 01</p>
+            <h3>Strategy &amp; The Blueprint</h3>
+            <p>Use Empathy Maps to uncover real user pain points. Create low-fidelity wireframes that validate hierarchy and flow before a single pixel is styled.</p>
+            <div class="pillar-tags" aria-label="Related tools">
+              <span class="pill">Empathy Maps</span>
+              <span class="pill">Wireframing</span>
+              <span class="pill">Visily / Balsamiq</span>
+            </div>
+          </article>
+
+          <article class="pillar-card" role="listitem">
+            <p class="pillar-number">Pillar 02</p>
+            <h3>Visual Design &amp; 2025 Aesthetics</h3>
+            <p>Apply the prescribed color system — Mocha Mousse, Ethereal Blue, Moonlit Grey — paired with geometric Montserrat headlines and readable Roboto body text.</p>
+            <div class="pillar-tags" aria-label="Related concepts">
+              <span class="pill">#A5856E Mocha</span>
+              <span class="pill">#A0D4E0 Blue</span>
+              <span class="pill">Montserrat + Roboto</span>
+            </div>
+          </article>
+
+          <article class="pillar-card" role="listitem">
+            <p class="pillar-number">Pillar 03</p>
+            <h3>Implementation — The Build</h3>
+            <p>Semantic HTML5 landmark elements as the foundation. CSS Grid for macro layouts, Flexbox for micro components, and a mobile-first strategy with clamp() fluid typography.</p>
+            <div class="pillar-tags" aria-label="Related technologies">
+              <span class="pill">Semantic HTML5</span>
+              <span class="pill">CSS Grid</span>
+              <span class="pill">Flexbox</span>
+              <span class="pill">Mobile-First</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── TOOLKIT ─────────────────────────────────────────── -->
+    <section class="toolkit" id="toolkit" aria-labelledby="toolkit-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="tag">Raw Materials</span>
+          <h2 id="toolkit-heading">Your Toolkit</h2>
+          <p style="color:var(--grey);opacity:0.55">No frameworks. Master the fundamentals first.</p>
+        </header>
+
+        <div class="toolkit-grid">
+
+          <article class="tool-card">
+            <div class="tool-icon" aria-hidden="true">🏗️</div>
+            <div>
+              <h3>HTML5 — The Infrastructure</h3>
+              <p>Semantic landmarks and structural meaning. Not just divs, but the right element for every job: &lt;header&gt;, &lt;main&gt;, &lt;article&gt;, &lt;footer&gt;.</p>
+            </div>
+          </article>
+
+          <article class="tool-card">
+            <div class="tool-icon" aria-hidden="true">🎨</div>
+            <div>
+              <h3>CSS3 — The Skin</h3>
+              <p>Responsive styling using Grid, Flexbox, and Container Queries. Fluid typography with clamp(). Breakpoints at 768px and 1024px.</p>
+            </div>
+          </article>
+
+          <article class="tool-card">
+            <div class="tool-icon" aria-hidden="true">⚙️</div>
+            <div>
+              <h3>JavaScript — The Logic</h3>
+              <p>Basic state management and interactive functionality. Event listeners, DOM manipulation, and lightweight interactivity that enhances good structure.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ROADMAP ─────────────────────────────────────────── -->
+    <section class="section" id="roadmap" aria-labelledby="roadmap-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="tag">Execution Plan</span>
+          <h2 id="roadmap-heading">6-Step Roadmap</h2>
+          <p>A structured path from idea to shipped, quality-verified interface.</p>
+        </header>
+
+        <ol class="roadmap-list" aria-label="Project execution steps">
+          <li class="roadmap-item active">
+            <div class="roadmap-dot" aria-hidden="true">01</div>
+            <div class="roadmap-content">
+              <h3>Discovery</h3>
+              <p>Define "How Might We" questions. Map user goals.</p>
+            </div>
+          </li>
+          <li class="roadmap-item">
+            <div class="roadmap-dot" aria-hidden="true">02</div>
+            <div class="roadmap-content">
+              <h3>Wireframe</h3>
+              <p>Grayscale, mobile-first sketches. Hierarchy first.</p>
+            </div>
+          </li>
+          <li class="roadmap-item">
+            <div class="roadmap-dot" aria-hidden="true">03</div>
+            <div class="roadmap-content">
+              <h3>Semantics</h3>
+              <p>Write HTML landmarks. Accessibility &amp; SEO bedrock.</p>
+            </div>
+          </li>
+          <li class="roadmap-item">
+            <div class="roadmap-dot" aria-hidden="true">04</div>
+            <div class="roadmap-content">
+              <h3>Style</h3>
+              <p>CSS Grid, Flexbox, 2025 color palette applied.</p>
+            </div>
+          </li>
+          <li class="roadmap-item">
+            <div class="roadmap-dot" aria-hidden="true">05</div>
+            <div class="roadmap-content">
+              <h3>Logic</h3>
+              <p>State &amp; interactivity layer with vanilla JS.</p>
+            </div>
+          </li>
+          <li class="roadmap-item">
+            <div class="roadmap-dot" aria-hidden="true">06</div>
+            <div class="roadmap-content">
+              <h3>Audit</h3>
+              <p>LCP / CLS performance &amp; WCAG accessibility review.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ── CTA ────────────────────────────────────────────── -->
+    <section class="cta-section" id="start" aria-labelledby="cta-heading">
+      <div class="container">
+        <div class="cta-inner">
+          <span class="tag">You Are The Architect</span>
+          <h2 id="cta-heading">Your code determines who has access to information.</h2>
+          <p>Open your IDE, initialize the repository, and begin with the blueprint. The journey to becoming a professional developer starts with the very first line of code you write today.</p>
+          <div class="hero-actions">
+            <a href="#" class="btn-primary">Open IDE &amp; Build</a>
+            <a href="#pillars" class="btn-ghost">Review the Pillars</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ─────────────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <p class="footer-brand">DecodeLabs</p>
+          <p style="font-size:0.75rem;opacity:0.4;margin-top:0.3rem">Greater Lucknow, India</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="mailto:decodelabs.tech@gmail.com">decodelabs.tech@gmail.com</a>
+          <a href="tel:+918933006408">+91 89330 06408</a>
+          <a href="https://www.decodelabs.tech" target="_blank" rel="noopener">www.decodelabs.tech</a>
+        </nav>
+      </div>
+      <p class="footer-bottom">© 2026 DecodeLabs · Project 1 · Industrial Training Kit · Batch 2026</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
