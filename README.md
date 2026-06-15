@@ -134,7 +134,7 @@ git push origin feature-name
 **Simran Choubey**
 
 * GitHub: https://github.com/SimranChoubey
-* LinkedIn: Add your LinkedIn profile here
+
 
 ## 📜 License
 
